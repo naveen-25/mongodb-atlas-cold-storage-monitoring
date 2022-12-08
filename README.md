@@ -36,3 +36,5 @@ To create alert trigger follow the below steps
   - And we can query respective collection and we can configure change stream to get a real time update to collection 
   
   ![Monitoring Dashboard](cold-storage-monitoring/public/Dashboard.png)
+  
+  ![Alerts ](cold-storage-monitoring/public/Alerts.png)

@@ -27,3 +27,4 @@ To create alert trigger follow the below steps
 - Click Add Trigger button on the right top corner
 - Choose trigger type as <b>Database</b>, configure the datasource and select timeseries collection
 - Choose event type as <b>Function</b> and copy the code avaiable in atlas-trigger/function.js
+- Update the <Cluster Name> with the name of your cluster and save the function

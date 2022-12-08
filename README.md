@@ -28,3 +28,11 @@ To create alert trigger follow the below steps
 - Choose trigger type as <b>Database</b>, configure the datasource and select timeseries collection
 - Choose event type as <b>Function</b> and copy the code avaiable in atlas-trigger/function.js
 - Update the <Cluster Name> with the name of your cluster and save the function
+  
+ ## Cold Storage Monitoring UI
+  The UI is built using React with Realm-web SDK
+  - We can use the Realm Web SDK to query MongoDB Atlas data directly from the browser with help Mongo App service
+  - Once App service is configured for Mongo collection and respective rule are in place, we can authenticate with Mongo App service from web
+  - And we can query respective collection and we can configure change stream to get a real time update to collection 
+  
+  ![Monitoring Dashboard](cold-storage-monitoring/public/Dashboard.png)
